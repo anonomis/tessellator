@@ -21,8 +21,11 @@ Getting started
 So... you have a huge bunch of good ol' awt shapes of arbitrary form and want to manage them easier by breaking them up in small uniformed comparable pieces. This is what Tesselator does:
 
 ``List<Triangle> triangles = new ArrayList<Triangle>();``  
+
 ``for (Shape shape : shapeHeap) {``
+
 ``triangles.addAll(new Tessellator().getTriangles(anyShape, null));``
+
 ``}``
 
 And that's it.
