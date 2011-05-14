@@ -11,7 +11,7 @@ Dependencies
  * `Download <https://github.com/anonomis/tessellator/archives/master>`_ or clone using ``git clone git://github.com/anonomis/tessellator.git``
  * `Download JOGL <http://code.google.com/p/processing/source/browse/trunk/processing/java/libraries/opengl/library/jogl.jar>`_ 
  * `Download GlueGen <http://code.google.com/p/processing/source/browse/trunk/processing/java/libraries/opengl/library/gluegen-rt.jar>`_ 
- * Download native libraries for both JOGL and GlueGen `all platforms here here<http://code.google.com/p/processing/source/browse/trunk/processing#processing%2Fjava%2Flibraries%2Fopengl%2Flibrary%2Flinux64>`_
+ * Download native libraries for both JOGL and GlueGen `all platforms here <http://code.google.com/p/processing/source/browse/trunk/processing#processing%2Fjava%2Flibraries%2Fopengl%2Flibrary%2Flinux64>`_
  * Setup build path variables GLLUEGEN and JOGL.
  * Setup native libraries location for GLUEGEN and JOGL.
  * Try TesselatorExample.java.
