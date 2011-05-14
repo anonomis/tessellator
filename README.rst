@@ -14,7 +14,7 @@ Dependencies
  * Download native libraries for both JOGL and GlueGen `all platforms here <http://code.google.com/p/processing/source/browse/trunk/processing#processing%2Fjava%2Flibraries%2Fopengl%2Flibrary%2Flinux64>`_
  * Setup build path variables GLLUEGEN and JOGL.
  * Setup native libraries location for GLUEGEN and JOGL.
- * Try TesselatorExample.java.
+
 
 Getting started
 ===============
@@ -30,7 +30,6 @@ So... you have a huge bunch of good ol' awt shapes of arbitrary form and want to
 
 And that's it.
 
-However... since GLU uses multi-threading for its tessellation algorithm you will either have to explicitly wait for the tessellations to finish or try to conform to implementing listeners and queues in order to handle the asynchronous callbacks that follows. 
 
 Known issues
 ============
