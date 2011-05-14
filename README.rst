@@ -22,7 +22,7 @@ So... you have a huge bunch of good ol' awt shapes of arbitrary form and want to
 
 ``List<Triangle> triangles = new ArrayList<Triangle>();  
 for (Shape shape : shapeHeap) {
-  triangles.addAll(new Tessellator().getTriangles(anyShape, null));
+triangles.addAll(new Tessellator().getTriangles(anyShape, null));
 }``
 
 And that's it.
