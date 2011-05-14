@@ -3,8 +3,8 @@ Tessellator
 ###########
 
 Tessellator is a triangulation tool for Java aimed for those who wish to manipulate and play around with large datasets of complex geometrical shapes. Tesselator does not define its own geomety classes but tries instead to preserve the accessibility and extensibility that standard awt components offer. Tesselator also takes use of 
-`JogAmp's<http://jogamp.org/>`_ cross-platform bindings to the 
-`OpenGL Utility Library (GLU)<http://www.opengl.org/resources/faq/technical/glu.htm>`_ 
+`JogAmp's <http://jogamp.org/>`_ cross-platform bindings to the 
+`OpenGL Utility Library (GLU) <http://www.opengl.org/resources/faq/technical/glu.htm>`_ 
 
 Dependencies
 ============
